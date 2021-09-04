@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-sm navbar-light" style="padding-left: 200px; height: 75px; margin-top: 2px;">
+
+    <img routerLink="/" src="https://www.avito.ma/img/logo-rbnd.png" class="logo-img">
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="col-xl mx-auto">
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" appHighlight style="color: #fff;" href="#">
+                        <i class="fa fa-plus" aria-hidden="true"></i> DÉPOSER UNE ANNONCE
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a routerLink="/chercher" class="nav-link" style="color: #fff;" appHighlight href="#"> <i class="fa fa-search" aria-hidden="true"></i> RECHERCHER </a>
+                </li>
+
+                <li class="nav-item active" style="margin-left: 170px;">
+                    <a class="nav-link" style="color: #fff;" appHighlight href="#">
+                        <i class="fa fa-heart-o" aria-hidden="true">
+                            </i> Favoris </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" style="color: #fff;" data-toggle="modal" routerLink="/login" data-target="#exampleMosdalLong" appHighlight href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> Se Connecter  </a>
+                </li>
+
+
+
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
